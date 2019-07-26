@@ -54,17 +54,17 @@ public class Second2_5_64 extends AppCompatActivity {
         //为GirdView设置Adapter
         grid.setAdapter(simpleAdapter);
         //添加列表项被选中的监听器
-        grid.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                imageView.setImageResource(imageIds[i]);
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
-
-            }
-        });
+//        grid.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//            @Override
+//            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+//                imageView.setImageResource(imageIds[i]);
+//            }
+//
+//            @Override
+//            public void onNothingSelected(AdapterView<?> adapterView) {
+//
+//            }
+//        });
         //添加列表项被单击的监听器
         grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
