@@ -1,0 +1,53 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--定义第一个表格，指定第二列允许收缩，第三列允许拉伸-->
+    <TableLayout
+        android:id="@+id/TableLayut01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="2">
+
+        <Button android:id="@+id/ok1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通按钮"/>
+        <TableRow >
+            <Button android:id="@+id/ok2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通按钮" />
+            <Button android:id="@+id/ok3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收缩按钮" />
+            <Button android:id="@+id/ok4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拉伸按钮" />
+        </TableRow>
+    </TableLayout>
+    <!--定义第二个表格，指定第二列隐藏-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Talbelayout01"
+        android:collapseColumns="1">
+        <Button android:id="@+id/ok5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第二行"/>
+        <TableRow>
+            <Button android:id="@+id/ok6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通标签"/>
+            <Button android:id="@+id/ok7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="收缩"/>
+            <Button android:id="@+id/ok8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拉伸按钮"/>
+        </TableRow>
+
+
+    </TableLayout>
+    <!--第一第三个表格，指定第二列和第三列可以被拉伸-->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Talbelayout02"
+        android:stretchColumns="1,2">
+        <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ok11" android:text="独自一行"/>
+        <TableRow >
+            <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通按钮"/>
+            <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拉伸的按钮"/>
+            <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拉伸的按钮"/>
+
+        </TableRow>
+        <TableRow >
+            <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="普通按钮"/>
+            <Button  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="拉伸的按钮"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

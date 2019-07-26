@@ -1,0 +1,52 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--结尾处绘制图片-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我爱java"
+        android:textSize="20pt"
+        android:drawableEnd="@drawable/setting_press"/>
+    <!--设置中将省略，所有字母大写-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:textAllCaps="true"
+        android:singleLine="true"
+        android:text="我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA我爱JAVA"/>
+    <!--对邮件，电话增加链接-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:autoLink="all"
+        android:text="我的邮件:1222@134.com 我的电话 0207734407"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试文字"
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:textColor="#f00"
+        android:textSize="18pt"
+        />
+    <!--密码-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:password="true"
+        />
+<CheckedTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="可勾选文本"
+    android:checkMark="@drawable/setting_press"/>
+
+</LinearLayout>
