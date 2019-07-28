@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--定义一个textSwitcher，冰指定文本切换时候的效果-->
+    <TextSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inAnimation="@android:anim/slide_in_left" android:outAnimation="@android:anim/slide_out_right"
+        android:onClick="next"
+        android:id="@+id/textSwitcher"/>
+
+    <TextSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inAnimation="@android:anim/slide_in_left" android:outAnimation="@android:anim/slide_out_right"
+        android:onClick="next2"
+        android:id="@+id/textSwitcher2"/>
+</LinearLayout>
