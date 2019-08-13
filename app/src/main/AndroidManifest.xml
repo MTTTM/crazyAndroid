@@ -2,24 +2,41 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.crazyandroid">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name="com.third.demo.third3_5_2">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.second.demo.Second2_8_3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.third.demo.third3_5">
+        <activity android:name="com.second.demo.Second2_8_2">
 
         </activity>
-        <activity android:name="com.third.demo.third3_2_2"></activity>
+        <activity android:name="com.second.demo.Second2_8_1"></activity>
+        <activity android:name="com.second.demo.Second2_3_8" />
+        <activity android:name="com.second.demo.Second2_3_7" />
+        <activity android:name="com.second.demo.Second2_3_6" />
+        <activity
+            android:name="com.fourth.PreferenceActivityTest"
+            android:label="设置程序参数" />
+        <activity
+            android:name="com.fourth.ExpandableListActivityTest"
+            android:label="查看星际兵种" />
+        <activity android:name="com.fourth.Thourth4_1" />
+        <activity android:name="com.third.demo.third3_6" />
+        <activity android:name="com.third.demo.third3_5_2" />
+        <activity android:name="com.third.demo.third3_5" />
+        <activity android:name="com.third.demo.third3_2_2" />
         <activity android:name="com.third.demo.third3_2" />
         <activity android:name="com.second.demo.Second2_7_4" />
         <activity android:name="com.second.demo.Second2_7_2" />
