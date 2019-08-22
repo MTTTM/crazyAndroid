@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/btn" android:text="创建PopuWindow"/>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" android:id="@+id/bn"/>
+<!--    显示文本的表单-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/show" android:hint="我会显示你选择的时间"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  android:id="@+id/dateBn" android:text="创建DatePicker"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/timeBn" android:text="创建TimePicker"/>
+</LinearLayout>
