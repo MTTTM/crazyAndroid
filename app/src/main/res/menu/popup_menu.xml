@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:title="查找" android:id="@+id/search_badge"></item>
+    <item android:title="添加"  android:id="@+id/add"></item>
+    <item android:id="@+id/edi" android:title="编辑"></item>
+    <item android:id="@+id/hide" android:title="隐藏"></item>
+</menu>
