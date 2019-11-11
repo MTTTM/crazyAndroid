@@ -14,16 +14,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.second.demo.Second2_10_7">
+        <activity android:name=".com.example.fourth.Thourth4_4">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.second.demo.Second2_10_6">
-
-        </activity>
+        <activity android:name="com.com.ccy.Main9Activity" />
+        <activity android:name=".com.example.fourth.Fourth4_1" />
+        <activity android:name="com.second.demo.Second2_11_1" />
+        <activity android:name="com.second.demo.Second2_10_7" />
+        <activity android:name="com.second.demo.Second2_10_6"></activity>
         <activity android:name="com.second.demo.Second2_10_5" />
         <activity android:name="com.second.demo.Second2_10" />
         <activity android:name="com.second.demo.Second2_9_5" />
@@ -40,12 +42,14 @@
         <activity android:name="com.second.demo.Second2_3_7" />
         <activity android:name="com.second.demo.Second2_3_6" />
         <activity
-            android:name="com.fourth.PreferenceActivityTest"
+            android:name=".com.example.fourth.PreferenceActivityTest"
             android:label="设置程序参数" />
         <activity
-            android:name="com.fourth.ExpandableListActivityTest"
+            android:name=".com.example.fourth.ExpandableListActivityTest"
             android:label="查看星际兵种" />
-        <activity android:name="com.fourth.Thourth4_1" />
+        <activity android:name=".com.example.fourth.Thourth4_1">
+
+        </activity>
         <activity android:name="com.third.demo.third3_6" />
         <activity android:name="com.third.demo.third3_5_2" />
         <activity android:name="com.third.demo.third3_5" />

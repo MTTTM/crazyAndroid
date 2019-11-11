@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
   <!--指定启动指定PreferenceFragment的列表选项-->
-    <header android:fragment="com.fourth.PreferenceActivityTest$Prefs1Fragment"
+    <header android:fragment="com.example.crazyandroid.com.example.fourth.PreferenceActivityTest$Prefs1Fragment"
         android:icon="@drawable/progress_dialog_bg"
         android:title="程序选项设置"
         android:summary="设置运用的相关设置项"/>
 
     <!--指定启动指定的ReferenceFragment-->
-    <header android:fragment="com.fourth.PreferenceActivityTest$Prefs2Fragment"
+    <header android:fragment="com.example.crazyandroid.com.example.fourth.PreferenceActivityTest$Prefs2Fragment"
         android:icon="@drawable/newscenter_press"
         android:title="界面选项设置"
         android:summary="设置显示界面的相关选项">

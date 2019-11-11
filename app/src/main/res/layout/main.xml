@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="请输入您的注册信息" android:textSize="20sp"/>
+    <TableRow >
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textSize="16sp" android:text="用户名:"/>
+        <!--定义一个Editxt来手机用户的账号-->
+        <EditText android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="haha"/>
+    </TableRow>
+</TableLayout>

@@ -1,4 +1,4 @@
-package com.fourth;
+package com.example.crazyandroid.example.crazyandroid.fourth;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

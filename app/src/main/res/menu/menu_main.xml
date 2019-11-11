@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-  <item android:title="@string/font_size" android:icon="@drawable/hand">
-      <menu>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appxx="http://schemas.android.com/apk/res-auto">
+  <item android:title="@string/font_size" android:icon="@drawable/hand" appxx:showAsAction="always">
+      <menu >
           <!--定义一组单选菜单-->
           <group android:checkableBehavior="single">
               <!--定义多个菜单项-->

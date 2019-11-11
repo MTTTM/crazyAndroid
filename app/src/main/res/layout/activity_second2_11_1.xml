@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"  android:text="显示ACTIONBar" android:id="@+id/show" android:onClick="showActionBar"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="隐藏ACTIONBAR" android:id="@+id/hide" android:onClick="hideActionBar"/>
+</LinearLayout>

@@ -1,11 +1,10 @@
-package com.fourth;
+package com.example.crazyandroid.example.crazyandroid.fourth;
 
 import android.app.LauncherActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 
-import com.example.crazyandroid.R;
 public class Thourth4_1 extends LauncherActivity {
     //定义两个Active的名称
     String[] names={"设计程序参数","查看星际兵种"};
